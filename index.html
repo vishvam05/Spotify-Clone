@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone
+</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_circle_down" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header -->
+     <div class="top-bar">
+      <div class="left-side-bar">
+        <img src="./assets/logo.png">
+        <div class="house-icon">
+          <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="What do you want to play?"/>
+        </div>
+      </div>
+      <div class="right-side-bar">
+        <div class="icon1">
+            <button class="icon1">Explore Premium</button>
+        </div>
+        <div class="icon2">
+         <i class="fa-solid fa-arrow-down"></i>
+          Install App
+        </div>
+        <div class="icon3">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <div class="icon4">
+          <i class="fa-solid fa-user-group"></i>
+        </div>
+        <div class="icon5 ">
+          <i class="fa-solid fa-v"></i>
+        </div>
+      </div>
+     </div>
+     <!-- header complete -->
+  <div class="main">
+      <!-- sidebar start -->
+    <div class="sidebar">
+      
+      <div class="library">
+        <div class="head ">
+          <div class="lbhead">
+          <img src="./assets/library_icon.png">
+          <a href="#">Your Library</a>
+        </div>
+        <div class="icons nav-option">
+          <i class="fa-solid fa-plus"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        </div>
+        <div class="boxes">
+          <div class="box1">
+            <div class="b1heading">Create Your First Playlist</div>
+            <div class="b1para">It's easy, we'll help you</div>
+            <button class="badge1">Create Playlist</button>
+          </div>
+          <div class="box2">
+            <div class="b2heading">Let's find some podcast to follow</div>
+            <div class="b2para">We'll keep you updated on new episodes</div>
+            <button class="badge2">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sidebar end -->
+     <!-- main content -->
+    <div class="main-content">
+      <div class="head">
+        <div class="all">
+        <button>All</button>
+      </div>
+      <div class="music">
+        <button>Music</button>
+      </div>
+      <div class="podcast">
+        <button>Podcast</button>
+      </div>
+    </div>
+    <h2>Recently played<h2>
+    <div class="cards-container">
+      <div class="c1">
+        <img src="./assets/card1img.jpeg">
+        <h5>Top 50-Global</h5>
+        <p>Your daily updates of most played tracks...</p>
+      </div>
+    </div>
+
+    <h2>Trending now near you<h2>
+    <div class="cards-container">
+      <div class="c1">
+        <img src="./assets/card2img.jpeg">
+        <h5>Mere Jinha Sohna</h5>
+        <p>Pop fizz with Punjabi twist...</p>
+    </div>
+    <div class="c1">
+        <img src="./assets/card3img.jpeg">
+        <h5>Dystinct</h5>
+        <p>Desi flavor. Global sound...</p>
+    </div>
+    <div class="c1">
+        <img src="./assets/card4img.jpeg">
+        <h5> Global Heat</h5>
+        <p>Folk soul. Star power...</p>
+    </div>
+    <div class="c1">
+        <img src="./assets/fav.png">
+        <h5>Favouraites</h5>
+        <p>The best of chill and thrill...</p>
+    </div>
+    </div>
+      <h2>Recommended Stations</h2>
+    <div class="cards-container">
+    <div class="c1">
+        <img src="./assets/rs1.png">
+        <h5> Global Picks</h5>
+        <p>Hits without borders...</p>
+    </div>
+       <div class="c1">
+        <img src="./assets/rs2.png">
+        <h5> Because You Listened Too</h5>
+        <p>Let the music flow from here...</p>
+    </div>
+       <div class="c1">
+        <img src="./assets/rs3.png">
+        <h5>On Your Frequency</h5>
+        <p>We tuned in. Now press play...</p>
+    </div>
+    </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+      </div>
+    </div>
+    <div class="music-player">
+      <div class="album">
+        <img src="./assets/billo.png">
+        <div class="info">
+          <h5>Billo tu agg</h5>
+          <p>Music video-Yo Yo Honey Singh</p>
+        </div>
+        <i class="fa-solid fa-circle-check"></i>
+
+      </div>
+      <div class="player">
+        <div class="buttons">
+          <img src="./assets/player_icon1.png" class="player-control-icon">
+          <img src="./assets/player_icon2.png" class="player-control-icon">
+          <img src="./assets/player_icon3.png" class="play">
+          <img src="./assets/player_icon4.png" class="player-control-icon">
+          <img src="./assets/player_icon5.png" class="player-control-icon">
+        </div>
+        <div class="playback-bar">
+          <span class="curr-time">00:00</span>
+          <input type="range" min="0" max="100" class="progress-bar" value="10">
+          <span class="curr-time">3:33</span>
+        </div>
+      </div>
+      <div class="controls">
+  <img src="./assets/controls_icon1.png" class="ctrl-icon" />
+  <img src="./assets/controld_icon2.png" class="ctrl-icon" />
+  <img src="./assets/controls_icon3.png" class="ctrl-icon" />
+  <img src="./assets/controls_icon4.png" class="ctrl-icon" />
+  <div class="volume-bar">
+     <input type="range" min="0" max="100" class="volume" value="10">
+  </div>
+</div>
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,498 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: black;
+  margin:0;
+  color:white;
+  overflow: hidden;
+}
+.main{
+  display:flex;
+ height: calc(100vh - 72px);
+
+
+}
+.sidebar{
+  background-color:#000000;
+  width:340px;
+  border-radius: 0.75rem;
+  overflow:hidden;
+  margin:0rem 0px 0px 0.625rem;
+}
+.main-content{
+  background-color:#121212;
+  flex:1;
+  border-radius: 0.75rem;
+  overflow:auto;
+  margin:0rem 0.625rem 0.625rem 0.625rem;
+  padding:1.5rem 0rem 0rem 2.5rem
+}
+.music-player{
+  background-color:black;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height:72px;
+}
+
+.nav-option a{
+  text-decoration:none;
+  font-size:1rem;
+  color:white;
+  padding:0.5rem 0.75rem;
+
+}
+
+ .lbhead{
+  line-height: 2.7rem;
+  opacity:0.6;
+}
+.lbhead a{
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+.head img{
+  height:1.25rem;
+  width:1.25rem;
+}
+.library .head{
+  display:flex;
+  justify-content: space-between;
+  padding:0.5rem 1.75rem;
+  align-items:center;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.library{
+  background-color: #121212;
+  height:100%;
+  border-radius: 0.75rem;
+  margin-top: 0rem;
+}
+.head i{
+  margin:0.5rem;
+  opacity:0.7px;
+}
+.box1{
+  background-color: #232323;
+  height:8rem;
+  border-radius: 0.75rem;
+  margin:0.625rem;
+  padding:0.5rem 1.75rem;
+
+}
+.box1 .b1heading{
+  font-size:0.9rem;
+  font-weight: 700;
+  margin:1rem 0rem 0.75rem 0rem;
+}
+.box1 .b1para{
+  font-size:0.8rem;
+  font-weight: 550;
+  margin:0rem 0rem 0.75rem 0rem;
+}
+.badge1{
+  font-size: 0.79rem;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  border: none;
+  margin-top:0.75rem;
+  opacity: 0.9;
+}
+.box2{
+  background-color: #232323;
+  height:9rem;
+  border-radius: 0.75rem;
+  margin:0.625rem;
+  padding:0.5rem 1.75rem;
+
+}
+.box2 .b2heading{
+  font-size:0.9rem;
+  font-weight: 700;
+  margin:1rem 0rem 0.75rem 0rem;
+}
+.box2 .b2para{
+  font-size:0.8rem;
+  font-weight: 550;
+  margin:0rem 0rem 0.75rem 0rem;
+}
+.badge2{
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  border: none;
+  margin:0.75rem 0rem 0.5rem 0rem;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+.badge1:hover{
+  opacity:1;
+}
+.badge2:hover{
+  opacity:1;
+}
+.top-bar{
+  display:flex;
+  background-color: black;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  justify-content: space-between;
+}
+.top-bar img{
+  height:2rem;
+  width:2rem;
+  padding: 1rem 1rem 0.75rem 1.75rem;
+}
+.left-side-bar,.right-side-bar{
+  display: flex;
+}
+.left-side-bar img{
+  margin-right: 27rem;
+}
+.top-bar .house-icon{
+ height: 3rem;
+ width: 3rem;
+ border-radius: 50%;
+ background-color: #232323;
+ margin-top: 0.75rem;
+}
+.top-bar .house-icon i{
+font-size: 1.5rem;
+padding:0.75rem 0.25rem 0.25rem 0.65rem
+}
+.top-bar .search-bar{
+  display: flex;
+  align-items: center;
+  background-color: rgba(35, 35, 35, 0.7);
+  margin:0.75rem;
+  border-radius: 50px;
+  
+}
+.top-bar .search-bar input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  padding:0.9rem 10rem 0.9rem 2rem;
+}
+.search-bar i{
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-right: 0.5rem;
+  padding-left: 1rem;
+}
+.icon1{
+    font-size: 0.79rem;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  border: none;
+  opacity: 0.9;
+  transition-duration: 0.2s;
+  margin-right: 0.3rem;
+}
+.right-side-bar{
+  align-items: center;
+}
+.icon1:hover{
+  background-color: white;
+}
+.icon2{
+  font-size: 0.9rem;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  margin-right:2.5rem;
+  
+}
+.icon2:hover{
+  font-size: 1.0rem;
+  opacity: 1;
+}
+.icon3{
+  font-size: 1rem;
+  margin-right: 1.3rem;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+}
+.icon3:hover{
+  opacity: 1;
+}
+.icon4{
+  font-size: 1rem;
+  margin-right: 1.3rem;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+}
+.icon4:hover{
+  opacity: 1;
+}
+.icon5{
+  font-size: 1rem;
+  margin-right: 2rem;
+  opacity: 0.7;
+  transition-duration: 0.2s;
+
+}
+.icon5:hover{
+  opacity: 1;
+}
+.right-side-bar .icon2 i{
+  margin-right: 0.3rem;
+}
+.head{
+  display:flex;
+  margin-bottom: 2.5rem;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  background-color: transparent;
+}
+.main-content .all button{
+  height:2rem;
+  width:3rem;
+  padding:0.25rem;
+  background-color: whitesmoke;
+  
+  border-radius: 50px;
+  border: none;
+  opacity: 1;
+  margin-right: 0.75rem;
+  font-weight: 550;
+}
+.main-content .music button{
+  height:2rem;
+  width:4rem;
+  padding:0.25rem;
+  background-color:#232323;
+  color:white;
+  border-radius: 50px;
+  border: none;
+  opacity: 0.7;
+  margin-right: 0.75rem;
+  font-weight: 550;
+}
+.main-content .podcast button{
+  height:2rem;
+  width:5rem;
+  padding:0.25rem;
+  background-color: #232323;
+  color:white;
+  border-radius: 50px;
+  border: none;
+  opacity: 0.8;
+  margin-right: 0.75rem;
+  font-weight: 550;
+}
+.main-content .podcast button:hover{
+  opacity:1;
+}
+.main-content .music button:hover{
+  opacity: 1;
+}
+.p1{
+
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-bottom: 0px;
+}
+.h1{
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 1.25rem;
+}
+.main-content .c1{
+  background-color: #232323;
+  padding:1rem;
+  width:150px;
+  transition-duration: 0.25s;
+  border-radius: 0.75rem;
+  opacity: 0.9;
+  margin-left:1rem;
+}
+.c1 img{ 
+  width: 100%;
+  border-radius: 0.75rem;
+}
+.cards-container{
+  display:flex;
+}
+.main-content .c1:hover{
+  background-color: #232323;
+  width:155px;
+  border-radius: 1rem;
+  opacity: 1;
+}
+.cards-container p{
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 0px;
+}
+.h2{
+  padding-top: 2rem;
+}
+.footer{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  width:90%;
+  height:30%;
+  border-top:2px solid white;
+  opacity: 0.4;
+}
+.music-player img{
+  height:3rem;
+  width:3rem;
+  padding: 0.8rem 0.5rem 0.5rem 1rem;
+}
+.music-player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:72px;
+  color:white;
+  display:flex;
+    justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+.album {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 25%;
+}
+.info h5 {
+  font-size: 0.90rem;
+  margin: 0;
+  font-weight: 550;
+  margin-top: 1rem;
+}
+
+.info p {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  opacity: 0.6;
+
+}
+.player{
+  width:50%;
+    display:flex;
+    justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.controls{
+  width:25%;
+}
+.player img{
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+  opacity: 0.5;
+}
+.player .play{
+  height:2.2rem;
+  width:2.2rem;
+  opacity: 1;
+  margin-top: -8px;
+}
+.playback-bar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  gap: 0.75rem;
+  margin-top: -5px;
+
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.progress-bar::-webkit-slider-runnable-track {
+
+    background-color: #ddd;
+    height: 0.25rem;
+    border-radius: 100px;
+
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.progress-bar{
+  width: 50%;
+}
+.controls {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0 0.5rem;
+  gap: 0rem; 
+
+}
+
+.music-player .controls img{
+  height: 1.5rem;
+  width: 1.4rem;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.ctrl-icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.ctrl-icon.large {
+  height: 2rem;
+}
+
+.ctrl-icon.small {
+  height: 1rem;
+}
+
+.volumn-bar {
+  width: 6rem;
+  height: 4px;
+  background-color: gray;
+  border-radius: 2px;
+}
+.volume::-webkit-slider-runnable-track {
+
+    background-color: #ddd;
+    height: 0.25rem;
+    border-radius: 100px;
+}
+
+.volume-bar ::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.4rem;
+    width: 0.4rem;
+    background-color: #1DB954;
+    border-radius: 50%;
+    margin-top: -5px;
+}
